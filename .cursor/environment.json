@@ -1,0 +1,10 @@
+{
+  "name": "Alladin Admin",
+  "install": "cd admin && npm ci",
+  "terminals": [
+    {
+      "name": "admin-dev",
+      "command": "cd admin && npm run dev -- --host"
+    }
+  ]
+}
