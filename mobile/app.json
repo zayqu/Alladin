@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Alladin",
+    "slug": "alladin",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "alladin",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1C1917"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alladinevents.app",
+      "buildNumber": "16",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.alladinevents.app",
+      "versionCode": 15,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "12c012be-2892-4c0c-9d06-ac4cc1b89f9e"
+      }
+    },
+    "owner": "barakaganai"
+  }
+}
